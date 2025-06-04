@@ -16,7 +16,6 @@ const GalleryImages = [
     galleryImg04,
     galleryImg05,
     galleryImg07,
-     galleryImg08,
 ]
 
 export default GalleryImages
