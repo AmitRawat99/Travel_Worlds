@@ -16,7 +16,7 @@ ConnectDb();
 const app = express();
 const port = process.env.PORT || 6500;
 const corsOption = {
-  origin: "http://localhost:4173"  || "https://travel-worlds-frontend.onrender.com",
+  origin: "http://localhost:4173" ,  "https://travel-worlds-frontend.onrender.com",
   credentials: true,
   methods: ["POST", "GET", "DELETE"],
 };
