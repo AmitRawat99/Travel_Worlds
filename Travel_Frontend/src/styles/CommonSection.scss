@@ -1,0 +1,40 @@
+@import "../index.css";
+
+
+
+.common_section {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('../assets/Images/tour.jpg'), no-repeat center center;
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  h1{
+    font-size: 2.5rem;
+    color: #fff;
+  }
+}
+
+
+.pagination{
+    span{
+        width: 2rem;
+        height: 2rem;
+        padding: 5px;
+        border-radius: 50px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--secondary-color);
+        color: var(--heading-color);
+        cursor: pointer;
+        font-weight: 500;
+        user-select: none;
+    
+    }
+    .active_page{
+        background-color: var(--primary-color);
+        color: #fff !important;
+    }
+}

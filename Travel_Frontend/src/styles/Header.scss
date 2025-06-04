@@ -1,0 +1,126 @@
+@import "../index.css";
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 10px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  .nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-img .logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav_item {
+    gap: 10px;
+    a{
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin: 0 10px;
+    }
+  }
+
+  .nav-item .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+    transition: color 0.3s;
+  }
+
+  .login-btn {
+    width: 150px;
+    height: 40px;
+    border: 1px solid var(--background);
+    background: transparent;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+    border-radius:10px;
+    &:hover {
+      border-radius: 2px;
+      background: var(--background);
+      color: var(--whiteColor);
+    }
+    .btn-link{
+      text-decoration: none;
+    }
+  }
+}
+
+.nav_item a:hover{
+  color: inherit;
+}
+
+.nav_item a.active_link{
+  color: var(--secondary-color);
+}
+
+.mobile_menu{
+  font-size: 2rem;
+  color: var(--secondary-color);
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-nav-btns{
+  display: none;
+}
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.show-nav {
+    display: flex;
+    display: none;
+  }
+
+  .mobile_menu {
+    display: block;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+  }
+  .nav_right{
+    display: none !important;
+  }
+  .mobile-nav-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+

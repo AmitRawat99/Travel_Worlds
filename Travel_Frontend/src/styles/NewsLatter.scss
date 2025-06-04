@@ -1,0 +1,49 @@
+@import "../index.css";
+
+.newsletter {
+  background: #cae5f4;
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.newsletter_img {
+  img {
+    width: 100%;
+  }
+}
+
+.newsletter_content{
+    padding: 50px 0;
+}
+
+
+.newsletter_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    input{
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        color: var(--heading-color);
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+.newslatter_btn{
+    padding: 0.5rem 1.5rem !important;
+    background-color: var(--secondary-color) !important;
+    color: #fff !important;
+    font-size: 1.1rem !important;
+}
+
+.newsletter_content p{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+}

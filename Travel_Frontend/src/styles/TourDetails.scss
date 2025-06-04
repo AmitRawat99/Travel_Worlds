@@ -1,0 +1,125 @@
+@import "../index.css";
+
+.tour_content {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+  img {
+    width: 100%;
+    height: 310px;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .tour_info {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    h2 {
+      font-size: 1.5rem;
+    }
+    span {
+      display: flex;
+      align-items: center;
+      column-gap: 0.5rem;
+      font-size: 1rem;
+      color: var(--text-color);
+      i{
+        color: var(--heading-color);
+        font-size: 1.1rem;
+      }
+    }
+  }
+  .tour_extra_details{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    column-gap: 1.7rem;
+    margin-bottom: 1.7rem;
+  }
+  h5{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  p{
+    line-height: 30px;
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+}
+
+.tour_review{
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    h4{
+        margin-bottom: 2rem;
+    }
+}
+
+.rating_group{
+    span{
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+}
+.review_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 1px solid var(--secondary-color);
+    margin-top: 1.5rem;
+    input{
+        width: 100%;
+        outline: none;
+        border: none;
+        padding: 0.5rem 0 ;
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+
+.reviews_item{
+    display: flex;
+    align-items: center;
+    columns-gap :1rem;
+    margin-bottom: 2rem;
+    img{
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-bottom: 0;
+        margin-right: .2rem;
+        border-radius: 50px;
+    }
+    h4{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    p{
+        font-size: .9rem;
+        color: var(--text-color);
+    }
+    span{
+        i{
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+        }
+    }
+}
+
+.user_reivews{
+    margin-top: 2.5rem;
+}
+
+.tour_details{
+  margin-top: 2rem;
+}
