@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import ava01 from "../../assets/Images/ava-1.jpg";
-import ava02 from "../../assets/Images/ava-2.jpg";
-import ava03 from "../../assets/Images/ava-3.jpg";
+import ava01 from "../../../public/Images/ava-1.jpg";
+import ava02 from "../../../public/Images/ava-2.jpg";
+import ava03 from "../../../public/Images/ava-3.jpg";
 
 function Testimonial() {
 
@@ -35,7 +35,7 @@ function Testimonial() {
         ],
     };
 
-    
+
 
     return (
         <>

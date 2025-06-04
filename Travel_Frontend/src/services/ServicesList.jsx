@@ -2,9 +2,9 @@ import React from 'react'
 import '../styles/services.scss'
 import { Col } from 'reactstrap'
 
-import WeatherImg from '../assets/Images/weather.png'
-import GoideImg from '../assets/Images/guide.png'
-import CustomizationImg from '../assets/Images/customization.png'
+import WeatherImg from '../../public/Images/weather.png'
+import GoideImg from '../../public/Images/guide.png'
+import CustomizationImg from '../../public/Images/customization.png'
 import ServicesCards from './ServicesCards'
 
 

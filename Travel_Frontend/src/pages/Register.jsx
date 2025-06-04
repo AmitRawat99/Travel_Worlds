@@ -3,9 +3,9 @@ import { Link, useNavigate } from 'react-router-dom'
 import { Container, Form, FormGroup, Col, Row, Button } from 'reactstrap'
 import styled from 'styled-components'
 import '../styles/login.scss'
-import RegisterImg from '../assets/Images/register.png'
-import usericon from '../assets/Images/user.png'
-import { AuthContext } from '../context/authContext'
+import RegisterImg from '../../public/Images/register.png'
+import usericon from '../../public/Images/user.png'
+import { AuthContext } from '../context/AuthContext'
 import { BASE_URL } from '../utils/config'
 
 const ContainerBox = styled.div`

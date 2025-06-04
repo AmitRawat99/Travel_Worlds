@@ -1,7 +1,8 @@
 import React from 'react'
 import '../../styles/NewsLatter.scss'
 import { Row, Col } from 'reactstrap'
-import MaleTourist from '../../assets/Images/male-tourist.png'
+// import MaleTourist from '../../assets/Images/male-tourist.png'
+import MaleTourist from '../../../public/Images/male-tourist.png'
 
 import styled from 'styled-components'
 const ContainerBox = styled.div`

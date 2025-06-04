@@ -4,9 +4,9 @@ import Contact_us from '../components/shared/Contact_us'
 import { Link } from 'react-router-dom'
 import { Row, Col, ListGroup, ListGroupItem, Form, FormGroup, Input, Button, Label } from 'reactstrap'
 import styled from 'styled-components'
-import mapVector from '../assets/img/map-vector.png'
-import experience from '../assets/Images/experience.png'
-// import experience from '../assets/Images/male-tourist.png'
+import mapVector from '../../public/img/map-vector.png'
+// import experience from '../assets/Images/experience.png'
+import experience from '../../public/Images/experience.png'
 const ContainerBox = styled.div`
   max-width: 1300px;
   width: 100%;

@@ -2,9 +2,10 @@ import React, { useRef, useState, useContext } from "react";
 import { Container, Row, Button, Col } from "reactstrap";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../../styles/Header.scss";
-import logo from "../../assets/Images/Logo.png";
+// import logo from "../../assets/Images/Logo.png";
+import logo from '../../../public/Images/logo.png'
 import styled from "styled-components";
-import { AuthContext } from "../../context/authContext";
+import { AuthContext } from "../../context/AuthContext";
 
 
 const ContainerBox = styled.div`

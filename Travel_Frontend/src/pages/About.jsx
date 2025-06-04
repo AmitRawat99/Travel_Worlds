@@ -4,6 +4,7 @@ import '../styles/About.scss'
 import styled from 'styled-components'
 import NewsLatter from '../components/shared/NewsLatter'
 import Testimonial from '../components/Testimonial/Testimonial'
+import aboutDots from '../../public/Images/about-dots.svg'
 import { Col, Row } from "reactstrap";
 const ContainerBox = styled.div`
   max-width: 1300px;
@@ -48,8 +49,8 @@ function About() {
                   allowfullscreen>
                 </iframe>
 
-                <img className="dotsImg image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg" />
               </div>
+                <img className="dotsImg image-block" src={aboutDots} />
             </div>
           </div>
          

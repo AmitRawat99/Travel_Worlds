@@ -3,10 +3,12 @@ import { Link, useNavigate } from 'react-router-dom'
 import { Container, Form, FormGroup, Col, Row, Button } from 'reactstrap'
 import styled from 'styled-components'
 import '../styles/login.scss'
-import loginImg from '../assets/Images/login.png'
-import usericon from '../assets/Images/user.png'
+// import loginImg from '../assets/Images/login.png'
+import loginImg from '../../public/Images/login.png'
+import usericon from '../../public/Images/user.png'
+// import usericon from '../assets/Images/user.png'
 import { BASE_URL } from '../utils/config'
-import { AuthContext } from '../context/authContext'
+import { AuthContext } from '../context/AuthContext'
 const ContainerBox = styled.div`
  max-width:1200px;
  width:100%;

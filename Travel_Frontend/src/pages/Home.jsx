@@ -1,9 +1,9 @@
 import React from "react";
 import Subtitle from '../components/shared/Titlesub'
-import banner1 from "../assets/Images/gallery-04.jpg";
-import banner2 from "../assets/Images/hero-img01.jpg";
-import banner3 from "../assets/Images/hero-video.mp4";
-import world from '../assets/Images/world.png'
+import banner1 from "../../public/Images/gallery-04.jpg";
+import banner2 from "../../public/Images/hero-img01.jpg";
+import banner3 from "../../public/Images/hero-video.mp4";
+import world from '../../public/Images/world.png'
 import SearchList from "../components/shared/SearchList";
 import styled from "styled-components";
 import { Col, Row } from "reactstrap";
