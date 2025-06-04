@@ -5,7 +5,7 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'remixicon/fonts/remixicon.css'
 import { BrowserRouter } from 'react-router-dom'
-import { AuthContextProvider } from './context/authContext'
+import { AuthContextProvider } from './context/AuthContext'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
